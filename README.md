@@ -32,3 +32,13 @@ While $ACD_0$ performs well and is better than FVSne[^readme-2], there are sever
 -   Developed algorithm to solve high expansion factor bias;
 -   Worked with Ben Rice's FIA plot benchmarking data set to validate and test the model.
 
+### R Package
+
+$ACD_7$ is accessible through an R package (`acdR`) available in this repository as both a Windows binary and Source tarball. 
+The package depends on the following libraries:
+
+* Rcpp (>= 1.0.9)
+* RSQLite
+* dplyr
+ 
+
