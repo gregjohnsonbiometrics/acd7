@@ -41,4 +41,8 @@ The package depends on the following libraries:
 * RSQLite
 * dplyr
  
+### Repo Development Path
+
+1. Include C++ and R source directories
+2. Insure cross-platform build integrity
 
