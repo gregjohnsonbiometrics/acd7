@@ -1,0 +1,14 @@
+Package: acdR
+Type: Package
+Title: R interface to the Acadian Variant v7 of FVS
+Version: 0.76
+Date: 2024-10-11
+Author: Greg Johnson, Greg Johnson Biometrics LLC
+Maintainer: Greg Johnson <greg@nosnhoj.org>
+Description: Grows a tree list with the Acadian Variant of FVS using C++ code ported over from R.
+Depends: R (>= 4.2.0),  Rcpp (>= 1.0.9), RSQLite, dplyr
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.9)
+LinkingTo: Rcpp
+RoxygenNote: 7.3.1
+Encoding: UTF-8
