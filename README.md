@@ -43,6 +43,7 @@ The package depends on the following libraries:
  
 ### Repo Development Path
 
-1. Include C++ and R source directories
-2. Insure cross-platform build integrity
+1. Insure cross-platform build integrity
+2. Add command line interface code
+
 
