@@ -41,9 +41,25 @@ The package depends on the following libraries:
 * RSQLite
 * dplyr
  
+### Repo Contents
+
+**acd7**\
+|\
+|-- **acdR**: R package source\
+|\
+|-- **cl_acd**: command line interface source \
+|\
+|-- **db_acd**: SQLite interface source and example files\
+|\
+|-- **documentation**: pdfs of fitting documentation for component equations\
+
+Note: all C++ source code tested with g++ 13.2.0.
+
+Examples for running the R package and the command line interfaces can be found in `README.txt`.
+
 ### Repo Development Path
 
 1. Insure cross-platform build integrity
-2. Add command line interface code
+2. Build in runtime optimizations
 
 

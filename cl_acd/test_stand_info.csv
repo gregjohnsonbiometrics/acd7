@@ -1,0 +1,3 @@
+region,stand_id,units,year,csi,elev,cdef,use_sbw,use_hw,use_thin,use_ingrowth ,cut_point,MinDBH
+ME,0023200806050102903343,1,10,50.52954,3.048,-1,0,0,0,0,0.5,1.18
+ME,0023200806050102903343,1,10,30.52954,3.048,-1,0,0,0,0,0.5,1.18
