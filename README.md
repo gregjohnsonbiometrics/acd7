@@ -25,16 +25,18 @@ While $ACD_0$ performs well and is better than FVSne[^readme-2], there are sever
 -   Refactoring:
     -   Abandoned mixed-model approach and fit species independently
     -   Fit equations for:
-        -   diameter growth;
-        -   individual tree survival;
-        -   height growth;
-        -   height to crown base change;
--   Developed algorithm to solve high expansion factor bias;
--   Worked with Ben Rice's FIA plot benchmarking data set to validate and test the model.
+        -   [diameter growth](./documentation/Diameter%20Growth%20Equation.pdf);
+        -   [individual tree survival](./documentation/Species%20Specific%20Survival%20Equation.pdf);
+        -   [height growth](./documentation/Height%20Growth%20Equation.pdf);
+        -   [height to crown base change](./documentation/Height%20to%20Crown%20Base%20Change%20Equation.pdf);
+        -   [height prediction](./documentation/Height-Imputation-for-the-Acadian-Variant-of-FVS--ACD-.pdf);
+-   Developed an [algorithm](./documentation/Tree-List-Expansion-and-Contraction-Algorithm.pdf) to solve high expansion factor bias;
+-   Worked with Ben Rice's FIA plot benchmarking data set to [validate](./documentation/Acadian-Benchmarking-v7.pdf) and [test](./documentation/Acadian-Benchmarking-100-Year-Projections-v7.pdf) the model.
 
 ### R Package
 
-$ACD_7$ is accessible through an R package (`acdR`) available in this repository as both a Windows binary and Source tarball. 
+$ACD_7$ is accessible through an R package `acdR` available in this repository as both a [Windows binary](./acdR_0.76.zip) and
+[Source tarball](./acdR_0.76.tar.gz). 
 The package depends on the following libraries:
 
 * Rcpp (>= 1.0.9)
@@ -61,5 +63,6 @@ Examples for running the R package and the command line interfaces can be found 
 
 1. Insure cross-platform build integrity
 2. Build in runtime optimizations
+3. Chasing model residuals
 
 
