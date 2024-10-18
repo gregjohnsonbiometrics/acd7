@@ -57,7 +57,7 @@ The package depends on the following libraries:
 
 Note: all C++ source code tested with g++ 13.2.0.
 
-Examples for running the R package and the command line interfaces can be found in `README.txt`.
+Examples for running the R package and the command line interfaces can be found in [README.txt](./README.txt).
 
 ### Repo Development Path
 
